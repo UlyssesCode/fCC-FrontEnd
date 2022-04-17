@@ -1,0 +1,134 @@
+
+
+body {
+    min-width: 290px;
+    color: #4d4e53;
+    font-family:"Times New Roman", Times, serif;
+    line-height: 1.5;
+  }
+
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    border-right: solid;
+    height: 100%;
+    background-color: rgb(231, 229, 229)
+}
+
+
+#main-doc header {
+  text-align: center;
+  margin: 0px;
+}
+
+#main-doc{
+    text-align: center;
+    padding-left: 25%;
+    background-color: #ffffff;
+}
+
+.main-section{
+    color:black;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+nav header{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+}
+
+.index{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0px;
+    color: #000000;
+    border-top: 1px solid;
+}
+
+.index a{
+    color: #4d4e53;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+.index a:hover{
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+
+.index a:active{
+    background-color: rgba(163, 162, 162,0.5);
+}
+
+
+ul{
+    padding: 0px;
+}
+
+.main-section header{
+    background-color:gray;
+    color: white;
+    transition: 0.5s;
+}
+
+.main-section header:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.bio-head{
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    background-color: #e0e0e2;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0px;
+}
+
+.bio-head:hover{
+    opacity: 0.5;
+}
+
+.bio{
+    font-size: 18px;
+    text-align: left;
+}
+
+li{
+    font-size: 18px;
+    text-align: left;
+    padding: 5px;
+}
+
+.bio-ul{
+    padding-left:18px;
+}
+
+code{
+    font-family: serif;
+    font-size: 20px;
+    padding-right: 80%;
+    font-style: italic;
+}
+#poem{
+    font-size: 18px;
+    text-align: left;
+    left:20%;
+    padding-left: 5%;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+  }

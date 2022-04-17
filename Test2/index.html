@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html id="main">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+	<title>
+		民主选举
+	</title>
+</head>
+<h1 id="title">
+    民主选举
+</h1>
+<p id="description">
+    Liberté | Égalité | Fraternité
+</p>
+<div class="container">
+    <div class="d1">勒旁</div>
+    <div class="d2">马克龙</div>
+    <div class="d3">梅郎雄</div>
+</div>
+<form id="survey-form">
+    <div>
+        <label id="name-label" class="opacity">姓名</label>
+            <input type="text" placeholder="请输入您的姓名" required id="name" name="name" class="form-control">
+    </div>
+    <div>
+        <label id="email-label" class="opacity">邮箱</label>
+            <input type="email" placeholder="请输入您的邮箱" required id="email" name="email" class="form-control">
+    </div>
+    <div>
+        <label id="number-label" class="opacity">年龄</label>
+            <input 
+            type="number" 
+            placeholder="请输入您的年龄" 
+            required id="number"
+            min="18"
+            max="150"
+            name="age"
+            class="form-control"
+            />
+    </div>
+    <div>
+        <p class="opacity">您希望谁担任共和国总统？</p>
+        <select id="dropdown" required nam="poll" class="form-control">
+            <option disabled selected value>
+                请选择候选人
+            </option>
+            <option value="马克龙">
+                马克龙
+            </option>
+            <option value="勒旁">
+                勒旁
+            </option>
+            <option value="梅郎雄">
+                梅郎雄
+            </option>
+        </select>
+    </div>
+    <div>
+        <p class="opacity">您的政治立场是？</p>
+        <label class="opacity">
+            <input
+            name="Goods"
+            value="左翼"
+            type="radio"
+            />
+            左翼
+        </label>
+        <label class="opacity">
+            <input
+            name="Goods"
+            value="右翼"
+            type="radio"
+            />
+            右翼
+        </label>
+        <label class="opacity">
+            <input
+            name="Goods"
+            value="自由左翼"
+            type="radio"
+            />
+            自由左翼
+        </label>
+    </div>
+
+    <div class="opacity">
+    <p>
+        您喜欢哪种投票方式？
+    </p>
+    <label>
+        <input type="checkbox" name="prefer" value="线下固定投票点">
+        线下固定投票点
+    </label>
+    <label>
+        <input type="checkbox" name="prefer" value="线下流动投票点">
+        线下流动投票点
+    </label>
+    <label>
+        <input type="checkbox" name="prefer" value="线上网站投票">
+        线上网站投票
+    </label>
+    <label>
+        <input type="checkbox" name="prefer" value="线上链接投票">
+        线上链接投票
+    </label>
+    <label>
+        <input type="checkbox" name="prefer" value="线上网站投票">
+        电话投票
+    </label>
+    <label>
+        <input type="checkbox" name="prefer" value="邮寄投票">
+        邮寄投票
+    </label>
+    <label>
+        <input value="其他" type="text" name="prefer" placeholder="请输入其他方式...">
+        其他
+    </label>
+    </div>
+
+    <div>
+        <p class="opacity">您对本次选举还有哪些建议?</p>
+        <textarea  placeholder="您对本次选举还有哪些建议" class="form-control" name="textarea" id="textarea" cols="30" rows="10">
+        </textarea>
+    </div>
+    <div>
+
+    </div>
+    <div>
+        <button type="submit" id="submit" class="form-control">
+            提交
+        </button>
+    </div>
+</form>
